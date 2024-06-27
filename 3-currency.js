@@ -21,7 +21,7 @@ export default class Currency {
   }
 
   /**
-   * Creates the full string representation of this Currency.
+   * string representation.
    * @returns {String}
    */
   displayFullCurrency() {
