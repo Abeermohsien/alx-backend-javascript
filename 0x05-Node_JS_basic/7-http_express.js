@@ -6,8 +6,8 @@ const PORT = 1245;
 const DB_FILE = process.argv.length > 2 ? process.argv[2] : '';
 
 /**
- * Counting the students in a CSV data file.
- * @param {String} path data 
+ * Counting the students in a CSV data file
+ * @param {String} path data
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 const countStudents = (dataPath) => new Promise((resolve, reject) => {
